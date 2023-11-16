@@ -1,0 +1,225 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e9b7;
+    color: #3d2922;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b54949;
+    color: #f7e9b7;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f7e9b7;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #b54949;
+    color: #f7e9b7;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem; /* Добавим отступ сверху, чтобы убрать линию */
+}
+/* Стили для логотипа */
+.logo img {
+    max-width: 150px;
+}
+
+/* Дополнительные стили для пицц и кнопки "Купить" */
+.pizza-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pizza-item img {
+    margin: 4px 2px;
+    padding: 20px 10px;
+
+}
+
+/* Стили для модального окна заказа */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Изменение для пицц в меню */
+.menu-item {
+    display: inline-block;
+    margin-right: 20px; /* Добавим отступ между пиццами */
+    text-align: center;
+}
+
+
+.menu-item {
+    text-align: center;
+    margin-bottom: 0; /* Убираем отступ снизу, если он имеется */
+}
+
+
+.menu-item img {
+    width: 150px; /* Здесь вы можете установить желаемую ширину */
+    height: 150px; /* Установите одинаковую высоту для всех изображений */
+    object-fit: cover; /* Это позволит изображениям заполнить свои контейнеры, сохраняя при этом свои пропорции */
+}
+
+/* Стили для кнопки "Купить" */
+.buy-button {
+    background-color: #ffd700;
+    border: none;
+    color: #542e71;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #e5a800;
+    color: #ffffff;
+}
+
+/* Стили модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.payment-menu {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-menu h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-menu p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.payment-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.payment-menu li {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Стили для кнопки оплаты */
+.payment-button {
+    background-color: #4CAF50; /* Зеленый цвет кнопки */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.payment-button:hover {
+    background-color: #45a049; /* Темнее зеленый при наведении */
+}
