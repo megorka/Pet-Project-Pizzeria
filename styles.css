@@ -41,7 +41,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 2rem; /* Добавим отступ сверху, чтобы убрать линию */
 }
 /* Стили для логотипа */
 .logo img {
@@ -119,12 +118,12 @@ footer {
     background-color: #ffd700;
     border: none;
     color: #542e71;
-    padding: 10px 20px;
+    padding: 7px 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 50px;
     cursor: pointer;
 }
 

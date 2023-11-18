@@ -12,11 +12,6 @@ var drinks = [
         image: 'cola.jpg',
         price: 150
     },
-    {
-        name: 'Кола',
-        image: 'cola.jpg',
-        price: 150
-    },
     // Добавьте другие напитки сюда
 ];
 var menu = [
